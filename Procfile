@@ -1,1 +1,1 @@
-web: npm run server
+web: nodemon --watch server --exec babel-node -- server/index.js
